@@ -28,30 +28,30 @@ html, body {
 }
 
 .container section:nth-child(1) .image {
-  background-image: url(/Users/leonie/Projects/cmd/frontend/verwardeman/images/achtergrond1.png);
+  background-image: url(/images/achtergrond1.png);
 }
 .container section:nth-child(2) .image {
-  background-image: url(/Users/leonie/Projects/cmd/frontend/verwardeman/images/achtergrond2.png);
+  background-image: url(/images/achtergrond2.png);
 }
 
 .container section:nth-child(3) .image {
-  background-image: url(/Users/leonie/Projects/cmd/frontend/verwardeman/images/achtergrond3.png);
+  background-image: url(/images/achtergrond3.png);
 }
 
 .container section:nth-child(4) .image {
-  background-image: url(/Users/leonie/Projects/cmd/frontend/verwardeman/images/achtergrond4.png);
+  background-image: url(/images/achtergrond4.png);
 }
 
 .container section:nth-child(5) .image {
-  background-image: url(/Users/leonie/Projects/cmd/frontend/verwardeman/images/achtergrond5.png);
+  background-image: url(/images/achtergrond5.png);
 }
 
 .container section:nth-child(6) .image {
-  background-image: url(/Users/leonie/Projects/cmd/frontend/verwardeman/images/achtergrond6.png);
+  background-image: url(/images/achtergrond6.png);
 }
 
 .container section:nth-child(7) .image {
-  background-image: url(/Users/leonie/Projects/cmd/frontend/verwardeman/images/achtergrond7.png);
+  background-image: url(/images/achtergrond7.png);
 }
 
 
