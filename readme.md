@@ -6,7 +6,7 @@ A school assignment where I had to make a webpage fitting to a story about a con
 
 The story comes from a series called _stijloefeningen_ by author [Molovich](http://nurksmagazine.nl/author/molovich/).
 
-The story can be found [here].(http://nurksmagazine.nl/2011/06/stijloefeningen-84-de-verwarde-man/)
+The story can be found [here](http://nurksmagazine.nl/2011/06/stijloefeningen-84-de-verwarde-man/).
 
 ## The Assignment
 
