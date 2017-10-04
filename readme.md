@@ -1,4 +1,4 @@
-# Verwarde Man
+# [Verwarde Man](https://leoniesmits.github.io/verwardeman/verwardeman.html)
 
 A school assignment where I had to make a webpage fitting to a story about a confused man. This only exists of images, css and HTML. The inspiration for the design was Jean Michel Basquiat. 
 
