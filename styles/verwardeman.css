@@ -1,0 +1,110 @@
+html, body {
+  background-color: #2c3e50;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  background-color: #000000;
+}
+
+.container {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height: 100%;
+  justify-content: space-around;
+  position: relative;
+  width: 100%;
+}
+.container section {
+  width: 100%;
+  height: 100vh;
+  flex: 1;
+  display: flex;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.container section:nth-child(1) .image {
+  background-image: url(/Users/leonie/Projects/cmd/frontend/verwardeman/images/achtergrond1.png);
+}
+.container section:nth-child(2) .image {
+  background-image: url(/Users/leonie/Projects/cmd/frontend/verwardeman/images/achtergrond2.png);
+}
+
+.container section:nth-child(3) .image {
+  background-image: url(/Users/leonie/Projects/cmd/frontend/verwardeman/images/achtergrond3.png);
+}
+
+.container section:nth-child(4) .image {
+  background-image: url(/Users/leonie/Projects/cmd/frontend/verwardeman/images/achtergrond4.png);
+}
+
+.container section:nth-child(5) .image {
+  background-image: url(/Users/leonie/Projects/cmd/frontend/verwardeman/images/achtergrond5.png);
+}
+
+.container section:nth-child(6) .image {
+  background-image: url(/Users/leonie/Projects/cmd/frontend/verwardeman/images/achtergrond6.png);
+}
+
+.container section:nth-child(7) .image {
+  background-image: url(/Users/leonie/Projects/cmd/frontend/verwardeman/images/achtergrond7.png);
+}
+
+
+.container section .image {
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 500;
+  opacity: 0.8;
+  transition: ease-out 2s;
+}
+.container section .tekst {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  line-height: 2em;
+  letter-spacing: 0.3em;
+  height: 100%;
+  color: #fff;
+  max-width: 30em;
+  justify-content: center;
+  text-align: center;
+  z-index: 1000;
+  margin: 0 auto;
+  font-size: 1em;
+  position: relative;
+}
+.container section .tekst h2 {
+  margin: 0px;
+}
+.container section .tekst:before, .container section .tekst:after {
+  width: 100%;
+  height: 1px;
+  display: block;
+  background-color: #d35400;
+  margin: 30px 0;
+}
+
+img {
+  width: 100%;
+}
+
+@media (max-width: 30em) {
+  .container section .tekst {
+    letter-spacing: 0.15em;
+    max-width: 20em;
+    width: 90%;
+  }
+  .container section .image{
+    opacity: 0.5;
+  }
+
+}
+
